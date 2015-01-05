@@ -46,6 +46,15 @@
                                             <segue destination="9nh-8F-57x" kind="show" id="eWb-Fv-qJn"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTW-YE-hvu">
+                                        <rect key="frame" x="0.0" y="122" width="320" height="30"/>
+                                        <state key="normal" title="4 视觉效果">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="mOK-eB-qsO" kind="show" id="Lyi-9E-grV"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -63,6 +72,95 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="952" y="136"/>
+        </scene>
+        <!--Four2-->
+        <scene sceneID="hab-4J-B9i">
+            <objects>
+                <viewController id="uVG-JN-rd6" customClass="Four2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GP1-Fc-6Fj"/>
+                        <viewControllerLayoutGuide type="bottom" id="4e5-xh-YMQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f2r-Xb-iMf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uMf-Hj-Oka">
+                                <rect key="frame" x="49" y="93" width="120" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6AV-RX-IvE">
+                                <rect key="frame" x="49" y="253" width="120" height="120"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Four2" id="uc1-Gv-UzP"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="layerView1" destination="uMf-Hj-Oka" id="sqP-9j-aqc"/>
+                        <outlet property="layerView2" destination="6AV-RX-IvE" id="6B5-cw-K21"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r08-rC-YV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691" y="875"/>
+        </scene>
+        <!--Four1-->
+        <scene sceneID="N9q-5o-VMP">
+            <objects>
+                <viewController id="mOK-eB-qsO" customClass="Four1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wys-Yx-P23"/>
+                        <viewControllerLayoutGuide type="bottom" id="KZj-Vm-0fY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U5y-wH-bTY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-N0-BqW">
+                                <rect key="frame" x="100" y="296" width="120" height="120"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KTJ-81-YbN">
+                                        <rect key="frame" x="-20" y="-20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9q-PG-Q3K">
+                                <rect key="frame" x="100" y="115" width="120" height="120"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3M-vB-cAn">
+                                        <rect key="frame" x="-20" y="-20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3w-QH-bNS">
+                                <rect key="frame" x="16" y="72" width="78" height="30"/>
+                                <state key="normal" title="shadow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uVG-JN-rd6" kind="show" id="TVU-pK-4XT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Four1" id="Ppr-eP-0TW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="layerView1" destination="g9q-PG-Q3K" id="auJ-Ck-U1O"/>
+                        <outlet property="layerView2" destination="wdu-N0-BqW" id="2Ao-wq-4Sc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R98-xD-DtX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="691"/>
         </scene>
         <!--One1-->
         <scene sceneID="9yf-Kq-zIu">
@@ -192,7 +290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wI-1w-LaZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="909" y="676"/>
+            <point key="canvasLocation" x="1164" y="718"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1tn-0b-M71">

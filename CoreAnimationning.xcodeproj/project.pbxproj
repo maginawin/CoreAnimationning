@@ -18,6 +18,8 @@
 		081958011A5A6E49009049DF /* Two1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081958001A5A6E49009049DF /* Two1ViewController.m */; };
 		081958051A5A7449009049DF /* Two2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081958041A5A7449009049DF /* Two2ViewController.m */; };
 		081958091A5A798F009049DF /* Three1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081958081A5A798F009049DF /* Three1ViewController.m */; };
+		0819580D1A5A8EED009049DF /* Four1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0819580C1A5A8EED009049DF /* Four1ViewController.m */; };
+		081958101A5A9446009049DF /* Four2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0819580F1A5A9445009049DF /* Four2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		081958041A5A7449009049DF /* Two2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two2ViewController.m; sourceTree = "<group>"; };
 		081958071A5A798F009049DF /* Three1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three1ViewController.h; sourceTree = "<group>"; };
 		081958081A5A798F009049DF /* Three1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Three1ViewController.m; sourceTree = "<group>"; };
+		0819580B1A5A8EED009049DF /* Four1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Four1ViewController.h; sourceTree = "<group>"; };
+		0819580C1A5A8EED009049DF /* Four1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Four1ViewController.m; sourceTree = "<group>"; };
+		0819580E1A5A9445009049DF /* Four2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Four2ViewController.h; sourceTree = "<group>"; };
+		0819580F1A5A9445009049DF /* Four2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Four2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		081957D31A5A69E5009049DF /* CoreAnimationning */ = {
 			isa = PBXGroup;
 			children = (
+				0819580A1A5A8EB6009049DF /* 4视觉效果 */,
 				081958061A5A797F009049DF /* 3图层几何学 */,
 				081957FE1A5A6DC7009049DF /* 2寄宿图 */,
 				081957FA1A5A69EE009049DF /* 1图层树 */,
@@ -161,6 +168,17 @@
 				081958081A5A798F009049DF /* Three1ViewController.m */,
 			);
 			name = "3图层几何学";
+			sourceTree = "<group>";
+		};
+		0819580A1A5A8EB6009049DF /* 4视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				0819580B1A5A8EED009049DF /* Four1ViewController.h */,
+				0819580C1A5A8EED009049DF /* Four1ViewController.m */,
+				0819580E1A5A9445009049DF /* Four2ViewController.h */,
+				0819580F1A5A9445009049DF /* Four2ViewController.m */,
+			);
+			name = "4视觉效果";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +285,8 @@
 				081957DD1A5A69E5009049DF /* ViewController.m in Sources */,
 				081957FD1A5A6C0B009049DF /* One1ViewController.m in Sources */,
 				081957DA1A5A69E5009049DF /* AppDelegate.m in Sources */,
+				0819580D1A5A8EED009049DF /* Four1ViewController.m in Sources */,
+				081958101A5A9446009049DF /* Four2ViewController.m in Sources */,
 				081957D71A5A69E5009049DF /* main.m in Sources */,
 				081958051A5A7449009049DF /* Two2ViewController.m in Sources */,
 				081958011A5A6E49009049DF /* Two1ViewController.m in Sources */,
