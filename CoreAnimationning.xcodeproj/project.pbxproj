@@ -14,6 +14,10 @@
 		081957E21A5A69E5009049DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081957E11A5A69E5009049DF /* Images.xcassets */; };
 		081957E51A5A69E5009049DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081957E31A5A69E5009049DF /* LaunchScreen.xib */; };
 		081957F11A5A69E5009049DF /* CoreAnimationningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957F01A5A69E5009049DF /* CoreAnimationningTests.m */; };
+		081957FD1A5A6C0B009049DF /* One1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957FC1A5A6C0B009049DF /* One1ViewController.m */; };
+		081958011A5A6E49009049DF /* Two1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081958001A5A6E49009049DF /* Two1ViewController.m */; };
+		081958051A5A7449009049DF /* Two2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081958041A5A7449009049DF /* Two2ViewController.m */; };
+		081958091A5A798F009049DF /* Three1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081958081A5A798F009049DF /* Three1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		081957EA1A5A69E5009049DF /* CoreAnimationningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		081957EF1A5A69E5009049DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		081957F01A5A69E5009049DF /* CoreAnimationningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationningTests.m; sourceTree = "<group>"; };
+		081957FB1A5A6C0B009049DF /* One1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One1ViewController.h; sourceTree = "<group>"; };
+		081957FC1A5A6C0B009049DF /* One1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One1ViewController.m; sourceTree = "<group>"; };
+		081957FF1A5A6E49009049DF /* Two1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two1ViewController.h; sourceTree = "<group>"; };
+		081958001A5A6E49009049DF /* Two1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two1ViewController.m; sourceTree = "<group>"; };
+		081958031A5A7449009049DF /* Two2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two2ViewController.h; sourceTree = "<group>"; };
+		081958041A5A7449009049DF /* Two2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two2ViewController.m; sourceTree = "<group>"; };
+		081958071A5A798F009049DF /* Three1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three1ViewController.h; sourceTree = "<group>"; };
+		081958081A5A798F009049DF /* Three1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Three1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,9 @@
 		081957D31A5A69E5009049DF /* CoreAnimationning */ = {
 			isa = PBXGroup;
 			children = (
+				081958061A5A797F009049DF /* 3图层几何学 */,
+				081957FE1A5A6DC7009049DF /* 2寄宿图 */,
+				081957FA1A5A69EE009049DF /* 1图层树 */,
 				081957D81A5A69E5009049DF /* AppDelegate.h */,
 				081957D91A5A69E5009049DF /* AppDelegate.m */,
 				081957DB1A5A69E5009049DF /* ViewController.h */,
@@ -117,6 +132,35 @@
 				081957EF1A5A69E5009049DF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		081957FA1A5A69EE009049DF /* 1图层树 */ = {
+			isa = PBXGroup;
+			children = (
+				081957FB1A5A6C0B009049DF /* One1ViewController.h */,
+				081957FC1A5A6C0B009049DF /* One1ViewController.m */,
+			);
+			name = "1图层树";
+			sourceTree = "<group>";
+		};
+		081957FE1A5A6DC7009049DF /* 2寄宿图 */ = {
+			isa = PBXGroup;
+			children = (
+				081957FF1A5A6E49009049DF /* Two1ViewController.h */,
+				081958001A5A6E49009049DF /* Two1ViewController.m */,
+				081958031A5A7449009049DF /* Two2ViewController.h */,
+				081958041A5A7449009049DF /* Two2ViewController.m */,
+			);
+			name = "2寄宿图";
+			sourceTree = "<group>";
+		};
+		081958061A5A797F009049DF /* 3图层几何学 */ = {
+			isa = PBXGroup;
+			children = (
+				081958071A5A798F009049DF /* Three1ViewController.h */,
+				081958081A5A798F009049DF /* Three1ViewController.m */,
+			);
+			name = "3图层几何学";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081958091A5A798F009049DF /* Three1ViewController.m in Sources */,
 				081957DD1A5A69E5009049DF /* ViewController.m in Sources */,
+				081957FD1A5A6C0B009049DF /* One1ViewController.m in Sources */,
 				081957DA1A5A69E5009049DF /* AppDelegate.m in Sources */,
 				081957D71A5A69E5009049DF /* main.m in Sources */,
+				081958051A5A7449009049DF /* Two2ViewController.m in Sources */,
+				081958011A5A6E49009049DF /* Two1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
