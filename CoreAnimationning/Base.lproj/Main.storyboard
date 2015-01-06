@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="vbR-dq-4vT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="adw-oS-jgh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3c-aC-95D">
@@ -48,7 +48,7 @@
                         <viewControllerLayoutGuide type="bottom" id="BqA-Sc-CAa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7qk-ca-z5Q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8b1-bS-zC6">
@@ -95,7 +95,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jOg-Ct-Xle"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RgV-ZR-S0L">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyd-0w-u6y">
@@ -124,7 +124,7 @@
                         <viewControllerLayoutGuide type="bottom" id="QG0-Gy-rPi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nIG-uZ-B2r">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CGAffineTransform" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4g-fC-lPA">
@@ -182,14 +182,14 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHg-qe-2fO">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhy-Lo-3wj">
-                                        <rect key="frame" x="0.0" y="8" width="320" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhy-Lo-3wj">
+                                        <rect key="frame" x="20" y="8" width="300" height="30"/>
                                         <state key="normal" title="1 图层树">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -197,8 +197,8 @@
                                             <segue destination="QsX-SZ-K7U" kind="show" id="qFq-XB-aML"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmt-36-d0L">
-                                        <rect key="frame" x="0.0" y="46" width="320" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmt-36-d0L">
+                                        <rect key="frame" x="20" y="46" width="300" height="30"/>
                                         <state key="normal" title="2 寄宿图">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -206,8 +206,8 @@
                                             <segue destination="Vr1-Cl-gaC" kind="show" id="VcT-GK-N56"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6p-n7-g5T">
-                                        <rect key="frame" x="0.0" y="84" width="320" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6p-n7-g5T">
+                                        <rect key="frame" x="20" y="84" width="300" height="30"/>
                                         <state key="normal" title="3 图层几何学">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -215,8 +215,8 @@
                                             <segue destination="9nh-8F-57x" kind="show" id="eWb-Fv-qJn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTW-YE-hvu">
-                                        <rect key="frame" x="0.0" y="122" width="320" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTW-YE-hvu">
+                                        <rect key="frame" x="20" y="122" width="300" height="30"/>
                                         <state key="normal" title="4 视觉效果">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -224,8 +224,8 @@
                                             <segue destination="mOK-eB-qsO" kind="show" id="Lyi-9E-grV"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWG-aB-qnO">
-                                        <rect key="frame" x="0.0" y="160" width="320" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWG-aB-qnO">
+                                        <rect key="frame" x="20" y="160" width="300" height="30"/>
                                         <state key="normal" title="5 变换">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -233,13 +233,22 @@
                                             <segue destination="anM-u1-Tod" kind="show" id="cVS-kZ-sUN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTb-Is-oCU">
-                                        <rect key="frame" x="0.0" y="198" width="320" height="30"/>
-                                        <state key="normal" title="6 专用图层">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTb-Is-oCU">
+                                        <rect key="frame" x="20" y="198" width="300" height="30"/>
+                                        <state key="normal" title="6 专有图层">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <segue destination="I92-9y-F6j" kind="show" id="I2x-TA-W0e"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJX-dc-JQf">
+                                        <rect key="frame" x="20" y="236" width="300" height="30"/>
+                                        <state key="normal" title="7 隐式动画">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ebM-Dl-GUq" kind="show" id="2Rb-HG-MY8"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -269,7 +278,7 @@
                         <viewControllerLayoutGuide type="bottom" id="FEg-NI-jUd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WFK-5u-0Ef">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAShapeLayer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zez-AX-mB7">
@@ -284,15 +293,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOQ-Xe-1U6">
-                                <rect key="frame" x="166" y="430" width="138" height="30"/>
-                                <state key="normal" title="CATextLayer">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="S5a-2j-ts9" kind="show" id="1PS-qC-ncs"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnk-X1-0wx">
                                 <rect key="frame" x="166" y="392" width="138" height="30"/>
                                 <state key="normal" title="CATransformLayer">
@@ -300,6 +300,51 @@
                                 </state>
                                 <connections>
                                     <segue destination="RBi-Tb-dTg" kind="show" id="Obl-3G-Lw7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDm-pA-4T0">
+                                <rect key="frame" x="166" y="354" width="138" height="30"/>
+                                <state key="normal" title="基础渐变">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Tmt-Ww-fMo" kind="show" id="1RT-XO-aQq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66r-E7-Itr">
+                                <rect key="frame" x="166" y="316" width="138" height="30"/>
+                                <state key="normal" title="多重渐变">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jqb-Zs-qar" kind="show" id="bD6-88-tJg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTG-kT-csm">
+                                <rect key="frame" x="166" y="278" width="138" height="30"/>
+                                <state key="normal" title="重复图层replicator">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zDz-Px-oZ0" kind="show" id="7GE-Xs-kSj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn7-Oe-fon">
+                                <rect key="frame" x="166" y="240" width="138" height="30"/>
+                                <state key="normal" title="反射(镜像)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lkW-mR-cLm" kind="show" id="uGU-th-VcH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOQ-Xe-1U6">
+                                <rect key="frame" x="166" y="430" width="138" height="30"/>
+                                <state key="normal" title="CATextLayer">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S5a-2j-ts9" kind="show" id="1PS-qC-ncs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -312,6 +357,239 @@
             </objects>
             <point key="canvasLocation" x="1325" y="136"/>
         </scene>
+        <!--Seven2-->
+        <scene sceneID="XFI-zU-RN4">
+            <objects>
+                <viewController id="Hx5-l0-lmN" customClass="Seven2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MC8-3B-Udi"/>
+                        <viewControllerLayoutGuide type="bottom" id="w3J-pz-EIg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IYe-AG-QDw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TCb-JQ-hlr">
+                                <rect key="frame" x="70" y="72" width="180" height="180"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zE-41-Ysi">
+                                <rect key="frame" x="70" y="348" width="180" height="30"/>
+                                <state key="normal" title="Change color">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chnageColor:" destination="Hx5-l0-lmN" eventType="touchUpInside" id="F6V-va-eBq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Seven2" id="IyW-Lu-soI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="layerView" destination="TCb-JQ-hlr" id="XHA-qM-KDT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aq4-Xa-yiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188" y="746"/>
+        </scene>
+        <!--Seven3-->
+        <scene sceneID="A32-tY-4mT">
+            <objects>
+                <viewController id="NGU-AS-dto" customClass="Seven3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SRz-lP-6Ff"/>
+                        <viewControllerLayoutGuide type="bottom" id="gZx-Iy-lbP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N9V-d5-UZy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVf-Sm-AB5">
+                                <rect key="frame" x="80" y="72" width="160" height="160"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQZ-Tk-JDf">
+                                <rect key="frame" x="101" y="442" width="118" height="30"/>
+                                <state key="normal" title="Change color">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeColor:" destination="NGU-AS-dto" eventType="touchUpInside" id="FPn-PS-g8Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Seven3" id="4bS-oR-Vaq"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="layerView" destination="vVf-Sm-AB5" id="yRa-h2-1Ui"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emC-22-HGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157" y="647"/>
+        </scene>
+        <!--Seven1-->
+        <scene sceneID="ai1-yq-fW8">
+            <objects>
+                <viewController id="ebM-Dl-GUq" customClass="Seven1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R97-oD-4Gd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q8T-bu-UcP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fdo-qV-g26">
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXB-eB-jaG">
+                                <rect key="frame" x="100" y="72" width="120" height="120"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcd-5N-xIc">
+                                <rect key="frame" x="100" y="200" width="120" height="30"/>
+                                <state key="normal" title="Change color">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeColor:" destination="ebM-Dl-GUq" eventType="touchUpInside" id="fFG-Ka-a6D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ED-l1-hbH">
+                                <rect key="frame" x="16" y="251" width="110" height="30"/>
+                                <state key="normal" title="完成块">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Hx5-l0-lmN" kind="show" id="g3B-xq-AT4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKH-cY-n6i">
+                                <rect key="frame" x="16" y="289" width="110" height="30"/>
+                                <state key="normal" title="图层行为">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NGU-AS-dto" kind="show" id="0NL-FN-sSU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Seven1" id="fwW-6P-Vbb"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="layerView" destination="lXB-eB-jaG" id="9ct-FL-KLT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3o-K7-bVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="612" y="700"/>
+        </scene>
+        <!--Six7-->
+        <scene sceneID="uqa-hM-lSe">
+            <objects>
+                <viewController id="lkW-mR-cLm" customClass="Six7ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fza-PH-UU3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z9U-Mq-aVf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KkK-GP-xIC">
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b3J-ox-NyM" customClass="ReflectionView">
+                                <rect key="frame" x="120" y="161" width="80" height="80"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="44m-bL-B9y">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="下面是一个重写的UIView(ReflectionView)中放了一个UIImage,在ReflectionView中实现了镜像功能" translatesAutoresizingMaskIntoConstraints="NO" id="5a1-Bx-J4J">
+                                <rect key="frame" x="40" y="72" width="240" height="81"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Six7" id="Kft-gl-3ua"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dyY-L7-8o4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="700"/>
+        </scene>
+        <!--Six6-->
+        <scene sceneID="EsZ-f5-gcE">
+            <objects>
+                <viewController id="zDz-Px-oZ0" customClass="Six6ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gx5-q4-4ED"/>
+                        <viewControllerLayoutGuide type="bottom" id="vlO-RS-rNG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9B7-WG-57A">
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lx1-25-TtO">
+                                <rect key="frame" x="120" y="159" width="80" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Six6" id="aOf-4v-mUd"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="lx1-25-TtO" id="9bi-eL-JNi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ceu-Gc-vUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1374" y="706"/>
+        </scene>
+        <!--Six4-->
+        <scene sceneID="0tg-FG-7mG">
+            <objects>
+                <viewController id="Tmt-Ww-fMo" customClass="Six4ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xqn-9s-KuO"/>
+                        <viewControllerLayoutGuide type="bottom" id="6e4-ZE-FtB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0at-qK-R3W">
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yl0-Cr-maU">
+                                <rect key="frame" x="70" y="150" width="180" height="180"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAGradientLayer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fnn-tg-Nmg">
+                                <rect key="frame" x="70" y="79" width="180" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Six4" id="78D-Pj-Hm3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="Yl0-Cr-maU" id="iru-bG-5Bu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YTI-Ts-iJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2253" y="700"/>
+        </scene>
         <!--Six3-->
         <scene sceneID="xQR-ph-ArJ">
             <objects>
@@ -321,7 +599,7 @@
                         <viewControllerLayoutGuide type="bottom" id="qac-an-wg0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5Tr-pi-Yhx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -330,7 +608,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqo-Ek-c3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1712" y="484"/>
+            <point key="canvasLocation" x="2074" y="136"/>
         </scene>
         <!--Six2-->
         <scene sceneID="6wb-5e-0Oq">
@@ -341,7 +619,7 @@
                         <viewControllerLayoutGuide type="bottom" id="mQE-ck-cYp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zwc-bq-6Uw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8HW-KN-W1S">
@@ -369,6 +647,35 @@
             </objects>
             <point key="canvasLocation" x="1723" y="136"/>
         </scene>
+        <!--Six5-->
+        <scene sceneID="iAs-g1-wd7">
+            <objects>
+                <viewController id="jqb-Zs-qar" customClass="Six5ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AK1-UY-ODy"/>
+                        <viewControllerLayoutGuide type="bottom" id="whr-7q-9Jh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zxo-wh-sXt">
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jo3-Pb-CoJ">
+                                <rect key="frame" x="70" y="72" width="180" height="180"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Six5" id="Nog-Zb-ZGP"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="containerView" destination="jo3-Pb-CoJ" id="JbV-9d-53m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8GZ-YD-s8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1735" y="706"/>
+        </scene>
         <!--Four2-->
         <scene sceneID="hab-4J-B9i">
             <objects>
@@ -378,7 +685,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4e5-xh-YMQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="f2r-Xb-iMf">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uMf-Hj-Oka">
@@ -412,7 +719,7 @@
                         <viewControllerLayoutGuide type="bottom" id="KZj-Vm-0fY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="U5y-wH-bTY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-N0-BqW">
@@ -467,7 +774,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Jq4-yp-ImN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0tP-cf-CQN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rgi-sg-Iut">
@@ -496,7 +803,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HcG-an-PYr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d51-ve-u0V">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXl-ZQ-loJ">
@@ -534,7 +841,7 @@
                         <viewControllerLayoutGuide type="bottom" id="YgH-p9-fPp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3RS-h1-GF0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E6X-JO-e60">
@@ -563,7 +870,7 @@
                         <viewControllerLayoutGuide type="bottom" id="XaA-Pj-ggk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ggl-Uf-F5w">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pce-2p-7VO">
@@ -594,9 +901,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xob-DN-IV6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hlK-Oq-0Jl">
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="hlK-Oq-0Jl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -608,4 +916,7 @@
             <point key="canvasLocation" x="482" y="136"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="start" width="88" height="88"/>
+    </resources>
 </document>
