@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081092061A5B713400505982 /* Five1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081092051A5B713400505982 /* Five1ViewController.m */; };
+		081092091A5B776A00505982 /* Five2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081092081A5B776A00505982 /* Five2ViewController.m */; };
+		0810920C1A5B7C0100505982 /* Five3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0810920B1A5B7C0100505982 /* Five3ViewController.m */; };
+		0810920F1A5B7E6B00505982 /* Five4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0810920E1A5B7E6B00505982 /* Five4ViewController.m */; };
+		081092151A5B869600505982 /* Six1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081092141A5B869600505982 /* Six1ViewController.m */; };
+		081092181A5B90B600505982 /* Six2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081092171A5B90B600505982 /* Six2ViewController.m */; };
+		0810921B1A5B966E00505982 /* Six3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0810921A1A5B966E00505982 /* Six3ViewController.m */; };
 		081957D71A5A69E5009049DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957D61A5A69E5009049DF /* main.m */; };
 		081957DA1A5A69E5009049DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957D91A5A69E5009049DF /* AppDelegate.m */; };
 		081957DD1A5A69E5009049DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957DC1A5A69E5009049DF /* ViewController.m */; };
@@ -33,6 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081092041A5B713400505982 /* Five1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Five1ViewController.h; sourceTree = "<group>"; };
+		081092051A5B713400505982 /* Five1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Five1ViewController.m; sourceTree = "<group>"; };
+		081092071A5B776A00505982 /* Five2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Five2ViewController.h; sourceTree = "<group>"; };
+		081092081A5B776A00505982 /* Five2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Five2ViewController.m; sourceTree = "<group>"; };
+		0810920A1A5B7C0100505982 /* Five3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Five3ViewController.h; sourceTree = "<group>"; };
+		0810920B1A5B7C0100505982 /* Five3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Five3ViewController.m; sourceTree = "<group>"; };
+		0810920D1A5B7E6B00505982 /* Five4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Five4ViewController.h; sourceTree = "<group>"; };
+		0810920E1A5B7E6B00505982 /* Five4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Five4ViewController.m; sourceTree = "<group>"; };
+		081092131A5B869600505982 /* Six1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Six1ViewController.h; sourceTree = "<group>"; };
+		081092141A5B869600505982 /* Six1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Six1ViewController.m; sourceTree = "<group>"; };
+		081092161A5B90B600505982 /* Six2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Six2ViewController.h; sourceTree = "<group>"; };
+		081092171A5B90B600505982 /* Six2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Six2ViewController.m; sourceTree = "<group>"; };
+		081092191A5B966E00505982 /* Six3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Six3ViewController.h; sourceTree = "<group>"; };
+		0810921A1A5B966E00505982 /* Six3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Six3ViewController.m; sourceTree = "<group>"; };
 		081957D11A5A69E5009049DF /* CoreAnimationning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		081957D51A5A69E5009049DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		081957D61A5A69E5009049DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +99,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081092031A5B712500505982 /* 5变换 */ = {
+			isa = PBXGroup;
+			children = (
+				081092041A5B713400505982 /* Five1ViewController.h */,
+				081092051A5B713400505982 /* Five1ViewController.m */,
+				081092071A5B776A00505982 /* Five2ViewController.h */,
+				081092081A5B776A00505982 /* Five2ViewController.m */,
+				0810920A1A5B7C0100505982 /* Five3ViewController.h */,
+				0810920B1A5B7C0100505982 /* Five3ViewController.m */,
+				0810920D1A5B7E6B00505982 /* Five4ViewController.h */,
+				0810920E1A5B7E6B00505982 /* Five4ViewController.m */,
+			);
+			name = "5变换";
+			sourceTree = "<group>";
+		};
+		081092121A5B868600505982 /* 6专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				081092131A5B869600505982 /* Six1ViewController.h */,
+				081092141A5B869600505982 /* Six1ViewController.m */,
+				081092161A5B90B600505982 /* Six2ViewController.h */,
+				081092171A5B90B600505982 /* Six2ViewController.m */,
+				081092191A5B966E00505982 /* Six3ViewController.h */,
+				0810921A1A5B966E00505982 /* Six3ViewController.m */,
+			);
+			name = "6专用图层";
+			sourceTree = "<group>";
+		};
 		081957C81A5A69E5009049DF = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +148,8 @@
 		081957D31A5A69E5009049DF /* CoreAnimationning */ = {
 			isa = PBXGroup;
 			children = (
+				081092121A5B868600505982 /* 6专用图层 */,
+				081092031A5B712500505982 /* 5变换 */,
 				0819580A1A5A8EB6009049DF /* 4视觉效果 */,
 				081958061A5A797F009049DF /* 3图层几何学 */,
 				081957FE1A5A6DC7009049DF /* 2寄宿图 */,
@@ -281,13 +332,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0810920C1A5B7C0100505982 /* Five3ViewController.m in Sources */,
+				0810920F1A5B7E6B00505982 /* Five4ViewController.m in Sources */,
+				081092181A5B90B600505982 /* Six2ViewController.m in Sources */,
 				081958091A5A798F009049DF /* Three1ViewController.m in Sources */,
+				081092151A5B869600505982 /* Six1ViewController.m in Sources */,
+				0810921B1A5B966E00505982 /* Six3ViewController.m in Sources */,
 				081957DD1A5A69E5009049DF /* ViewController.m in Sources */,
 				081957FD1A5A6C0B009049DF /* One1ViewController.m in Sources */,
 				081957DA1A5A69E5009049DF /* AppDelegate.m in Sources */,
 				0819580D1A5A8EED009049DF /* Four1ViewController.m in Sources */,
 				081958101A5A9446009049DF /* Four2ViewController.m in Sources */,
+				081092061A5B713400505982 /* Five1ViewController.m in Sources */,
 				081957D71A5A69E5009049DF /* main.m in Sources */,
+				081092091A5B776A00505982 /* Five2ViewController.m in Sources */,
 				081958051A5A7449009049DF /* Two2ViewController.m in Sources */,
 				081958011A5A6E49009049DF /* Two1ViewController.m in Sources */,
 			);
@@ -412,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreAnimationning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreAnimationning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -480,6 +540,7 @@
 				081957F61A5A69E5009049DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		081957F71A5A69E5009049DF /* Build configuration list for PBXNativeTarget "CoreAnimationningTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +549,7 @@
 				081957F91A5A69E5009049DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
